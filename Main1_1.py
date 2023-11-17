@@ -9,7 +9,8 @@ def main_1():
         m = i/(a+b+c)
         if max < m:
             max = m
-            return max, i
+            s = i
+    return max, s
 print('Максимальное значение ',main_1()[0], 'от числа', main_1()[1])
 
 
